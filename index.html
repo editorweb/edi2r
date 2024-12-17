@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="es">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=windows-1252">
 	<title>Tryit Editor v3.7 luce80</title>
@@ -306,7 +306,7 @@
 		function display(xArr, yArr) {
 			let text = "Correct   Predicted<br>";
 			for (let i = 0; i < xArr.length; i++) { 
-			text += (xArr[i]*1.2+5).toFixed(4) + "   " + yArr[i].toFixed(4) + "<br>";
+			text += (xArr[i]*1.2+5).toFixed(4) + "   " + yArr[i].toFixed(4) + "<br>";
 			}
 			document.getElementById('message').innerHTML = text;
 		}
